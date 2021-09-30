@@ -14,6 +14,9 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+}
 .card-ctn {
     border-radius: 10px;
     color: hsl(0, 0%, 95%);
@@ -76,6 +79,23 @@
 }
 .card-luxury > button {
     color: var(--very-dark-cyan);
+}
+
+/**Footer section**/
+.attribution { 
+    background-color: var(--bright-orange);
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px; 
+    text-align: center; 
+    height: 70px;
+    width: 100vw;
+}
+.attribution a {
+    color: hsl(0, 0%, 95%); 
+    margin-left: 2.5px;
 }
 
 @media (min-width: 481px) {
